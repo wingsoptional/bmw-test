@@ -1,6 +1,14 @@
 # Test2021
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.2.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.2. 
+
+Please use the reference folder for images and fonts. 
+Instructions to the test: "BMW Web Designer Test.PDF"
+
+CREATE YOUR OWN BRANCH. DO NOT COMMIT NODE MODULES INTO YOUR BRANCH.
+CREATE YOUR OWN FOOTER COMPONENT MAKE IT LOOK LIKE THE DESIGN.
+YOU CAN USE BOOTSTRAP.
+
 
 ## Development server
 
