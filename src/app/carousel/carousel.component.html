@@ -1,0 +1,47 @@
+
+<!-- 
+15 Sept 2021
+U. Ho
+
+//todo - adjust position of indicators and arrows 
+-->
+
+<ngb-carousel (slide)="slideActivate($event)">
+
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper row">
+        <div class="col-sm-6">
+        <img src="assets/images/prime-7.jpg" alt="prime -7">
+        </div>
+        <div class="col-sm-4">
+          <h4>UP TO PRIME -7% AND ZERO DEPOSIT.</h4>
+          <p>What more can you say about the number 7? From now until 30 June 2018 visit selected dealers and choose from a selected range of BMW 3 series models at up to prime -7% with zero deposit.</p>
+          <div class="teaser-div-action"><span><i class="fa fa-chevron-right"></i></span> <a href="#">Find out more</a></div>
+        </div>
+      </div>
+      </ng-template>
+      <ng-template ngbSlide>
+        <div class="picsum-img-wrapper row">
+          <div class="col-sm-6">
+          <img src="assets/images/520d.jpg" alt="5series">
+          </div>
+          <div class="col-sm-4">
+            <h4>BMW 5 Series</h4>
+            <p>   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+        </p>
+          </div>
+        </div>
+        </ng-template>
+        <ng-template ngbSlide>
+            <div class="picsum-img-wrapper row">
+              <div class="col-sm-6">
+              <img src="assets/images/X3.jpg" alt="BMW X3">
+              </div>
+              <div class="col-sm-4">
+                <h4>BMW X3</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+            </p>
+              </div>
+            </div>
+            </ng-template>
+</ngb-carousel>
